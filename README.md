@@ -22,23 +22,21 @@ O sistema oferece as seguintes funcionalidades:
 
 Este projeto foi desenvolvido em Python 3. Para rodar o código, você precisa ter o Python instalado em sua máquina. Para verificar a instalação do Python, use o comando:
 
-bash
 ```python --version```
 
 Se não tiver o Python instalado, você pode baixá-lo aqui.
 
-###Instruções
+### Instruções
 
 1. Clone o repositório:
 
-bash
 ```git clone https://github.com/seu-usuario/nome-do-repositorio.git```
 ```cd nome-do-repositorio```
 
 3. Execute o programa:
 
 Basta rodar o arquivo Python para iniciar o programa de agenda:
-bash
+
 ```python agenda.py```
 
 4. Interaja com o menu:
@@ -49,7 +47,7 @@ Para exportar os contatos para um arquivo CSV, escolha a opção 6 e digite o no
 Para importar contatos de um arquivo CSV, escolha a opção 7 e forneça o caminho para o arquivo CSV.
 
 
-###Exemplo de Uso
+### Exemplo de Uso
 
 1- Mostrar todos os contatos da agenda
 2- Buscar contato
@@ -63,7 +61,7 @@ Para importar contatos de um arquivo CSV, escolha a opção 7 e forneça o camin
 
 Escolha a opção que deseja utilizar, digite o número correspondente e siga as instruções.
 
-###Estrutura do Código
+### Estrutura do Código
 Agenda: O dicionário AGENDA armazena os contatos com seus respectivos detalhes (telefone, email, CEP).
 Funções principais:
 mostrar_contatos(): Exibe todos os contatos.
@@ -75,9 +73,9 @@ importar_contato(): Importa contatos de um arquivo CSV.
 salvar(): Salva os contatos no arquivo database.csv.
 carregar(): Carrega os contatos do arquivo database.csv para a memória.
 
-###Tecnologias Utilizadas
+### Tecnologias Utilizadas
 Python 3
 Manipulação de arquivos CSV
 
-###Contribuições
+### Contribuições
 Sinta-se à vontade para contribuir para este projeto. Se você encontrar algum erro ou tiver sugestões de melhorias, abra uma issue ou envie um pull request.
