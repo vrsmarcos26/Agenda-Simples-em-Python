@@ -7,8 +7,8 @@
 </div>
 
 <p align="center">
-  <img alt="Linguagem Principal" src="https://img.shields.io/github/languages/top/SEU_USUARIO/NOME_DO_REPOSITORIO?style=for-the-badge&color=3776AB">
-  <img alt="Último Commit" src="https://img.shields.io/github/last-commit/SEU_USUARIO/NOME_DO_REPOSITORIO?style=for-the-badge&color=green">
+  <img alt="Linguagem Principal" src="https://img.shields.io/github/languages/top/vrsmarcos26/Agenda-Simples-em-Python?style=for-the-badge&color=3776AB">
+  <img alt="Último Commit" src="https://img.shields.io/github/last-commit/vrsmarcos26/Agenda-Simples-em-Python?style=for-the-badge&color=green">
 </p>
 
 <p align="center">
