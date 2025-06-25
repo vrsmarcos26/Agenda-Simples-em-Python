@@ -1,81 +1,121 @@
-# Agenda Simples em Python
+<div align="center">
+  <h1>
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Spiral%20Calendar.png" alt="Calendário" width="45" height="45" />
+    Agenda de Contatos em Python
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Man%20Technologist.png" alt="Tecnólogo" width="45" height="45" />
+  </h1>
+</div>
 
-Este é um projeto de uma agenda de contatos simples, desenvolvido em Python. A agenda permite ao usuário adicionar, editar, excluir e buscar contatos, além de importar e exportar dados em formato CSV. O objetivo deste projeto é criar uma aplicação funcional para gerenciar contatos, utilizando operações básicas de manipulação de dados.
+<p align="center">
+  <img alt="Linguagem Principal" src="https://img.shields.io/github/languages/top/SEU_USUARIO/NOME_DO_REPOSITORIO?style=for-the-badge&color=3776AB">
+  <img alt="Último Commit" src="https://img.shields.io/github/last-commit/SEU_USUARIO/NOME_DO_REPOSITORIO?style=for-the-badge&color=green">
+</p>
 
-## Funcionalidades
+<p align="center">
+  Um projeto simples de agenda de contatos, desenvolvido em Python para demonstrar operações de CRUD (Create, Read, Update, Delete) e manipulação de arquivos CSV.
+</p>
 
-O sistema oferece as seguintes funcionalidades:
+<p align="center">
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-tecnologias-utilizadas">Tecnologias</a> •
+  <a href="#-como-rodar-o-projeto">Como Rodar</a> •
+  <a href="#-estrutura-do-código">Estrutura</a> •
+  <a href="#-contribuições">Contribuições</a> •
+  <a href="#-licença">Licença</a>
+</p>
 
-1. **Mostrar todos os contatos da agenda**: Exibe todos os contatos registrados.
-2. **Buscar contato**: Permite buscar um contato específico pelo nome.
-3. **Incluir contato**: Adiciona um novo contato à agenda.
-4. **Editar contato**: Edita um contato já existente.
-5. **Excluir contato**: Remove um contato da agenda.
-6. **Exportar contatos para CSV**: Exporta a lista de contatos para um arquivo CSV.
-7. **Importar contatos de CSV**: Importa contatos de um arquivo CSV.
-8. **Salvar dados**: Salva a agenda em um arquivo CSV local.
-9. **Fechar agenda**: Encerra o programa.
+---
 
-## Como Usar
+### 🚀 Funcionalidades
 
-### Requisitos
+O sistema oferece as seguintes funcionalidades para gerenciamento de contatos:
 
-Este projeto foi desenvolvido em Python 3. Para rodar o código, você precisa ter o Python instalado em sua máquina. Para verificar a instalação do Python, use o comando:
+-   **Listar Contatos:** Exibe todos os contatos registrados na agenda.
+-   **Buscar Contato:** Permite a busca de um contato específico pelo nome.
+-   **Adicionar Contato:** Inclui um novo contato com nome, telefone, e-mail e endereço.
+-   **Editar Contato:** Modifica as informações de um contato já existente.
+-   **Excluir Contato:** Remove um contato da agenda.
+-   **Exportar para CSV:** Salva a lista de contatos em um arquivo `.csv` customizado.
+-   **Importar de CSV:** Carrega contatos a partir de um arquivo `.csv`.
+-   **Salvar e Sair:** Salva todas as alterações no arquivo `database.csv` e encerra o programa.
 
-```python --version```
+---
 
-Se não tiver o Python instalado, você pode baixá-lo aqui.
+### 🛠️ Tecnologias Utilizadas
 
-### Instruções
+O projeto foi construído utilizando as seguintes tecnologias:
 
-1. Clone o repositório:
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+</p>
 
-```git clone https://github.com/seu-usuario/nome-do-repositorio.git```
-```cd nome-do-repositorio```
+-   A biblioteca nativa `csv` do Python foi utilizada para a manipulação de dados.
 
-3. Execute o programa:
+---
 
-Basta rodar o arquivo Python para iniciar o programa de agenda:
+### ⚙️ Como Rodar o Projeto
 
-```python agenda.py```
+Você precisará ter o **Python 3** instalado em sua máquina.
 
-4. Interaja com o menu:
-O programa exibirá um menu com as opções numeradas. Basta digitar o número correspondente à ação desejada.
+1.  **Clone o Repositório**
+    ```bash
+    git clone [https://github.com/vrsmarcos26/Agenda-Simples-em-Python.git
+    cd NOME_DO_REPOSITORIO
+    ```
 
-5. Arquivos CSV:
-Para exportar os contatos para um arquivo CSV, escolha a opção 6 e digite o nome do arquivo.
-Para importar contatos de um arquivo CSV, escolha a opção 7 e forneça o caminho para o arquivo CSV.
+2.  **Execute a Aplicação**
+    Rode o script principal para iniciar a agenda no seu terminal.
+    ```bash
+    python agenda.py
+    ```
 
+3.  **Interaja com o Menu**
+    Após a execução, um menu interativo será exibido no terminal. Digite o número da opção desejada para usar a agenda.
 
-### Exemplo de Uso
+    ```
+    -- AGENDA --
+    1- Mostrar todos os contatos
+    2- Buscar contato
+    3- Incluir contato
+    4- Editar contato
+    5- Excluir contato
+    6- Exportar contatos para CSV
+    7- Importar contatos CSV
+    8- Salvar e fechar
+    ```
 
-1- Mostrar todos os contatos da agenda
-2- Buscar contato
-3- Incluir contato
-4- Editar contato
-5- Excluir contato
-6- Exportar contatos para CSV
-7- Importar Contatos CSV
-8- Salvar
-0- Fechar agenda
+---
 
-Escolha a opção que deseja utilizar, digite o número correspondente e siga as instruções.
+### 💻 Estrutura do Código
 
-### Estrutura do Código
-Agenda: O dicionário AGENDA armazena os contatos com seus respectivos detalhes (telefone, email, CEP).
-Funções principais:
-mostrar_contatos(): Exibe todos os contatos.
-buscar_contato(): Busca um contato pelo nome.
-incluir_editar_contato(): Adiciona ou edita um contato na agenda.
-excluir_contato(): Remove um contato.
-exportar_contatos(): Exporta os contatos para um arquivo CSV.
-importar_contato(): Importa contatos de um arquivo CSV.
-salvar(): Salva os contatos no arquivo database.csv.
-carregar(): Carrega os contatos do arquivo database.csv para a memória.
+O código é organizado da seguinte forma:
 
-### Tecnologias Utilizadas
-Python 3
-Manipulação de arquivos CSV
+-   **`AGENDA` (Dicionário):** Estrutura de dados principal que armazena os contatos em memória durante a execução.
+-   **Funções Modulares:** Cada funcionalidade do menu é implementada em uma função específica para manter o código limpo e organizado.
+    -   `mostrar_contatos()`: Exibe todos os contatos.
+    -   `buscar_contato()`: Busca um contato.
+    -   `incluir_editar_contato()`: Adiciona ou edita um contato.
+    -   `excluir_contato()`: Remove um contato.
+    -   `exportar_contatos()`: Exporta para um arquivo CSV.
+    -   `importar_contato()`: Importa de um arquivo CSV.
+-   **Persistência de Dados:**
+    -   `carregar()`: Carrega os contatos do arquivo `database.csv` para a memória ao iniciar.
+    -   `salvar()`: Salva o estado atual da agenda no arquivo `database.csv` ao fechar.
 
-### Contribuições
-Sinta-se à vontade para contribuir para este projeto. Se você encontrar algum erro ou tiver sugestões de melhorias, abra uma issue ou envie um pull request.
+---
+
+### 🤝 Contribuições
+
+Sinta-se à vontade para contribuir com este projeto. Se você encontrar algum problema ou tiver sugestões de melhoria, por favor, abra uma **Issue** ou envie um **Pull Request**.
+
+---
+
+### 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<hr>
+
+<p align="center">
+  Desenvolvido por <b>vrsmarcos26</b>
+</p>
